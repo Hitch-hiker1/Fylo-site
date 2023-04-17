@@ -1,0 +1,163 @@
+footer{
+    background-color: var(--backgound_color-footer);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+    padding-left: 5rem;
+    justify-content: space-evenly;
+}
+
+
+/*mini section 1*/
+
+#company-info-container{
+    row-gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#footer-logo{
+    max-width: 25% ;
+}
+
+#phone-icon-container{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+#phone-icon{
+    width: 2.2rem;
+}
+
+#phone-number{
+    font-family: var(--font-family-2);
+    color: var(--footer-font-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+#email-icon-container{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+#email-icon{
+    width: 2.2rem;
+}
+
+#email{
+    font-family: var(--font-family-2);
+    color: var(--footer-font-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/*mini section 2*/
+
+#footer-info-links-main-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    width: 100%;
+}
+
+#footer-info-links-container-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+#footer-info-links-container-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.info-link{
+    font-family: var(--font-family-2);
+    color: var(--footer-font-color);
+    font-size: 1.7rem;
+    font-weight: 400;
+    cursor: pointer
+}
+
+.info-link:hover{
+    color:  var(--hover-text-color);
+}
+
+/*mini section 3*/
+
+#soc-media-links-container{
+    align-self: center;
+    display: flex;
+    column-gap: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.soc-media-border{
+    border: 0.1rem solid white;
+    border-radius: 10rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 2.6rem;
+    cursor: pointer;
+}
+
+.soc-media-border:hover{
+    border-color:  var(--hover-text-color);
+}
+
+.soc-media-link{ 
+    width: 2rem;
+    vertical-align: middle;
+}
+
+
+
+/* Tablet */
+
+@media screen and (min-width:768px){
+    footer{
+        flex-direction: row;
+        height: 28rem;
+        align-items: center;
+        justify-content:flex-start;
+        column-gap: 6rem;
+        padding-left: 0rem;
+    }
+
+    #footer-info-links-main-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #footer-logo{
+        max-width: 13rem ;
+    }
+
+    #company-info-container{
+        margin-left: 4rem; 
+    }
+
+    #soc-media-links-container{
+        align-items: flex-start;
+        margin-top: -10rem;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width:1024px){
+    footer{
+        column-gap: 18rem;
+        padding-left: 6rem;
+    }   
+    #footer-info-links-main-container{
+        width: 60%;
+        margin-left: -26rem;
+    } 
+}

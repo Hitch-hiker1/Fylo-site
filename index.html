@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Main_style.css" >
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+
+  <header>
+    <img id="header-logo" src="images/logo.svg" alt="This is Logo of Fylo">
+    <div class="header-links-container">
+      <h4 class="header-link">Features</h4>
+      <h4 class="header-link">Team</h4>
+      <h4 class="header-link">Sign In</h4>
+    </div>  
+  </header>
+
+  <!-- Section 1  -->
+  <section id="section-1">
+  
+    <img id="illustration-1" src="images/illustration-1.svg" alt=""/>
+  <div id="section-1-text-container">
+  <h2 class="section-1-h2">
+    All your files in one secure location, accessible anywhere.
+  </h2>
+  <p class="section-1-p">
+    Fylo stores your most important files in one secure location. 
+    Access them wherever you need, share and collaborate with friends, 
+    family, and co-workers.
+  </p>
+  <div class="input_and_btn_container">
+    <input type="text" id="input-1" placeholder="Enter your email...">
+    <div id="warning_text_1"></div>
+    <button id="btn-1">Get Started</button>
+    
+  </div>
+  </div>
+  </section>
+
+  <!-- Section 2  -->
+  <section id="section-2">
+   
+      <img id="background_img" src="images\bg-curve-mobile.svg" alt="this is a background image of curve"/>
+    
+    <img id="illustration-2" src="images/illustration-2.svg" alt=""/>
+    <div id="section-2-text-container">
+    <h2 class="section-2-h2">
+      Stay productive, wherever you are
+    </h2>
+    <p class="section-2-p">
+      Never let location be an issue when accessing your files. Fylo has you 
+      covered for all of your file storage needs.
+    </p>
+    <p class="section-2-p">
+      Securely share files and folders with friends, family and colleagues for 
+      live collaboration. No email attachments required!
+    </p>
+    <div id="link-container">
+      <p id="link-to-how" href="">  See how Fylo works </p>
+      <img id="arrow-icon" src="images/icon-arrow.svg" alt="this is a icon of arrow">
+    </div>
+    <div id="quote-container">
+      <img id="quote-icon" src="images/icon-quotes.svg" alt="this is a icon of quote" >
+      <p class="quote-p">
+        Fylo has improved our team productivity by an order of magnitude. Since 
+        making the switch our team has become a well-oiled collaboration machine.
+       </p>
+       <div id="avatar-container">
+        <img id="avatar" src="images/avatar-testimonial.jpg" alt="avatar of person">
+        <P class="CEO-name"> 
+        Kyle Burton <br><span>
+        Founder & CEO, Huddle</span>
+        </P>
+      </div>
+    </div>
+  </div>
+  </section>  
+
+  <!-- Section 3  -->
+  <section id="section-3">
+    <div id="section-3-text-container">
+      <h3 >Get early access today</h3>
+      <P class="section-3-p">It only takes a minute to sign up and our free starter tier is extremely generous. 
+      If you have any questions, our support team would be happy to help you.</P>
+    </div>
+    <div id="section-3-input-and-btn-container">
+      <input type="text" id="input-2" placeholder="email@example.com">
+      <div id="warning_text_2"></div>
+      <button id="btn-2" >Get Started For Free</button>
+    </div>
+  </section>
+
+  <footer>
+    <div id="company-info-container">
+      <img id="footer-logo" src="images/logo-white.svg" alt="this is logo of Fylo" >
+      <div id="phone-icon-container">
+        <img id="phone-icon" src="images/icon-phone.svg" alt="this is a icon of phone">
+        <h5 id="phone-number">Phone: +1-543-123-4567</h5>
+      </div>
+      <div id="email-icon-container">
+        <img id="email-icon" src="images/icon-email.svg" alt="this is a icon of email">
+        <h5 id="email">example@fylo.com</h5>
+      </div>
+    </div>
+    <div id="footer-info-links-main-container">
+      <div id="footer-info-links-container-1">
+        <h5 class="info-link">About Us</h5>
+        <h5 class="info-link">Jobs</h5>
+        <h5 class="info-link">Press</h5>
+        <h5 class="info-link">Blog</h5>
+      </div>
+      <div id="footer-info-links-container-2">
+        <h5 class="info-link">Contact Us</h5>
+        <h5 class="info-link">Terms</h5>
+        <h5 class="info-link">Privacy</h5>
+      </div>
+    </div>
+    <div id="soc-media-links-container">
+      <div class="soc-media-border facebook"> 
+        <img class="soc-media-link" src="images/icon-facebook.svg" alt="this is a icon of Facebook">
+      </div>
+      <div class="soc-media-border twitter">
+        <img class="soc-media-link" src="images/icon-twitter.svg" alt="this is a icon of Twitter">
+      </div>
+      <div class="soc-media-border instagram">
+        <img class="soc-media-link" src="images/icon-instagram.svg" alt="this is a icon of Instagram">
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" ></script>
+</body>
+</html>
