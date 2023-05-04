@@ -66,22 +66,22 @@ function check_email_2(){
 
 header_links.forEach((header_link) => {
     header_link.addEventListener("click", ()=>{
-        window.location.href = "http://127.0.0.1:5500/index.html";
+        window.location.href = "https://hitch-hiker1.github.io/Fylo-site/";
        });
 });
 
 section_2_link.addEventListener("click", ()=> {
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "https://hitch-hiker1.github.io/Fylo-site/";
 });
     
 facebook.addEventListener("click", ()=> {
-    window.location.href = "https://www.facebook.com/";
+    window.location.href = "https://hitch-hiker1.github.io/Fylo-site/";
 });
 
 twitter.addEventListener("click", ()=> {
-    window.location.href = "https://twitter.com/login";
+    window.location.href = "https://hitch-hiker1.github.io/Fylo-site/";
 });
 
 instagram.addEventListener("click", ()=> {
-    window.location.href = "https://www.instagram.com/";
+    window.location.href = "https://hitch-hiker1.github.io/Fylo-site/";
 });
